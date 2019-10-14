@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+pandas = "*"
+google-api-python-client = "*"
+"google-auth-httplib2" = "*"
+google-auth-oauthlib = "*"
+"beautifulsoup4" = "*"
+jupyter = "*"
+gspread-pandas = "*"
+mlflow = "*"
+google-auth = "*"
+lxml = "*"
+"oauth2client" = "*"
+tqdm = "*"
+
+[requires]
+python_version = "3.5"
